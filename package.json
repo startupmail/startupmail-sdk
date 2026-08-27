@@ -1,0 +1,39 @@
+{
+  "name": "@startupmail/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the Startup Mail API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavhartz/startupmail-sdk.git"
+  },
+  "homepage": "https://startupmail.dev/docs/sdk",
+  "bugs": {
+    "url": "https://github.com/gustavhartz/startupmail-sdk/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

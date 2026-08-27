@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "startup-mail": {
+      "type": "http",
+      "url": "https://startupmail.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${STARTUPMAIL_API_KEY}"
+      }
+    }
+  }
+}
