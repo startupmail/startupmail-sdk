@@ -2,13 +2,14 @@
   "name": "@startupmail/sdk",
   "version": "0.1.0",
   "description": "TypeScript SDK for the Startup Mail API",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gustavhartz/startupmail-sdk.git"
+    "url": "git+https://github.com/startupmail/startupmail-sdk.git"
   },
   "homepage": "https://startupmail.dev/docs/sdk",
   "bugs": {
-    "url": "https://github.com/gustavhartz/startupmail-sdk/issues"
+    "url": "https://github.com/startupmail/startupmail-sdk/issues"
   },
   "type": "module",
   "main": "./dist/index.js",
@@ -21,6 +22,8 @@
   },
   "files": [
     "dist",
+    "examples",
+    "LICENSE",
     "README.md"
   ],
   "scripts": {

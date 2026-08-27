@@ -8,7 +8,7 @@ custom-domain mailbox for people and AI agents, with a web inbox, API, webhooks,
 During the beta, install directly from this public repository:
 
 ```bash
-npm install github:gustavhartz/startupmail-sdk
+npm install github:startupmail/startupmail-sdk
 ```
 
 The package is named `@startupmail/sdk`, so imports use that name:
@@ -37,7 +37,8 @@ code or a public repository.
 - [`examples/send-email.mjs`](./examples/send-email.mjs) sends one requested message.
 - [`examples/mcp-config.json`](./examples/mcp-config.json) shows the MCP server configuration.
 
-Run an example with a server-side environment variable:
+After cloning this repository and running `npm install`, run an example with a server-side
+environment variable:
 
 ```bash
 STARTUPMAIL_API_KEY=sm_live_... node examples/read-inbox.mjs
